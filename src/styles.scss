@@ -1,5 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 
+@font-face {
+    font-family: 'Title Font';
+    src: url('assets/fonts/Cinzel/cinzel.regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Padrão mobile */
 .container {
   max-width: 1200px;
@@ -10,6 +17,18 @@
 .layout {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+}
+
+.font-title {
+    font-family: 'Title Font';
+    color: #A78BFA;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 46px;
+ }
+
+body {
+    background-color: #140F2D;
 }
 
 /* Para telas maiores de 1200px */
