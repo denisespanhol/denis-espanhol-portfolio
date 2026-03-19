@@ -7,6 +7,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Inter Font';
+    src: url('assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Padrão mobile */
 .container {
   max-width: 1200px;
@@ -22,9 +29,10 @@
 .font-title {
     font-family: 'Title Font';
     color: #A78BFA;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     font-weight: 300;
     font-size: 46px;
+    margin: 0;
  }
 
 body {
