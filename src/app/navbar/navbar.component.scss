@@ -8,7 +8,6 @@
 .navbar-container {
     display: flex;
     flex-direction: column;
-    align-items: start;
     gap: 1rem;
 }
 
@@ -26,6 +25,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-top: 20px;
 }
 
 #subtitle {
@@ -51,12 +51,36 @@
 .navbar-link {
     font-family: 'Inter Font';
     font-weight: 400;
-    font-size: 22.5px;
+    font-size: 18px;
     color: #F5F3E7;
     text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.navbar-link:hover {
+    color: #A78BFA;
+    font-weight: 600;
 }
 
 #bullet-point {
     color: #C9A227;
     margin-right: 10px;
+}
+
+.icons-container {
+    display: flex;
+    align-self: center;
+    gap: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.icons-svg {
+  color: #A78BFA;
+  transition: 0.3s;
+}
+
+.icons-svg:hover {
+  color: #C9A227;
+  transform: scale(1.1);
 }
