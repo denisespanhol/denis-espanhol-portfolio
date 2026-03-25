@@ -3,6 +3,7 @@ import { MainContent } from './main-content/main-content.component';
 import { ShardSquadPage } from './pages/shard-squad-page/shard-squad-page.component';
 import { SpookyWorkersPage } from './pages/spooky-workers-page/spooky-workers-page.component';
 import { PongDefensePage } from './pages/pong-defense-page/pong-defense-page.component';
+import { ViolentHeartsPage } from './pages/violent-hearts-page/violent-hearts-page.component';
 
 export const routes: Routes = [
     {
@@ -20,5 +21,9 @@ export const routes: Routes = [
     {
         path: 'pong-defense',
         component: PongDefensePage
+    },
+    {
+        path: 'violent-hearts',
+        component: ViolentHeartsPage
     }
 ];
